@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name arduino_pro_micro)(type KiCad)(uri "D:/owncloud/Documents/Projects/C64 XUM1541/common/modules/arduino_pro_micro.pretty")(options "")(descr ""))
+  (lib (name C64_IEC)(type KiCad)(uri "D:/owncloud/Documents/Projects/C64 XUM1541/common/modules/C64_IEC.pretty")(options "")(descr ""))
+)

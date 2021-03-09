@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6522_Adapter
+D 6522 Socket adapter
+$ENDCMP
+#
+#End Doc Library
