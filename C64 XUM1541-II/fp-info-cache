@@ -1,4 +1,4 @@
-19030750296199290
+19038778043763360
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83047,3 +83047,38 @@ Arduino_Pro_Micro_Reverse
 0
 36
 24
+mounting
+M2
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+1
+1
+mounting
+M3
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+0
+0
+mounting
+M3_pin
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+1
+1
+speed_dos
+SpeedDOS_IDC
+Through hole IDC box header, 2x10, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+Through hole vertical IDC box header THT 2x10 2.54mm double row
+0
+20
+11
+switch_cutout
+SW_PUSH_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+4
+2
