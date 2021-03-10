@@ -579,6 +579,14 @@ Wire Wire Line
 	6225 5525 6750 5525
 Wire Wire Line
 	6225 5625 6750 5625
+Text Notes 7675 5300 0    50   ~ 0
+You can choose to install 2x8 pin IDC socket here,\nthis will support my previous version of this project\n(CA2/CB1 is not used by the C64 XUM1541).
+Wire Notes Line
+	7600 5525 7650 5525
+Wire Notes Line
+	7600 4825 7650 4825
+Wire Notes Line
+	7650 4825 7650 5525
 Wire Bus Line
 	3650 1275 3650 3750
 Wire Bus Line

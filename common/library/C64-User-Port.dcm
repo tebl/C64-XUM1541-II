@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C64_User_Port
+D Commodore 64 User Port
+F ~
+$ENDCMP
+#
+#End Doc Library

@@ -19,7 +19,7 @@ U 1 1 5EF167B3
 P 7200 4925
 F 0 "J2" H 7200 5350 50  0000 C CNN
 F 1 "SpeedDOS" H 7200 5250 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 7200 4925 50  0001 C CNN
+F 2 "speed_dos:SpeedDOS_IDC" H 7200 4925 50  0001 C CNN
 F 3 "~" H 7200 4925 50  0001 C CNN
 	1    7200 4925
 	1    0    0    -1  
@@ -579,6 +579,14 @@ Wire Wire Line
 	6225 5525 6750 5525
 Wire Wire Line
 	6225 5625 6750 5625
+Text Notes 7675 5300 0    50   ~ 0
+You can choose to install 2x8 pin IDC socket here,\nthis will support my previous version of this project\n(pins 1 and 10 are not used by the C64 XUM1541).
+Wire Notes Line
+	7600 5525 7650 5525
+Wire Notes Line
+	7600 4825 7650 4825
+Wire Notes Line
+	7650 4825 7650 5525
 Wire Bus Line
 	3650 1275 3650 3750
 Wire Bus Line

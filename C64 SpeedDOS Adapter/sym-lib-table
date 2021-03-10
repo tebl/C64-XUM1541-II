@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name speed_dos)(type Legacy)(uri $KIPRJMOD/../common/library/speed_dos.lib)(options "")(descr ""))
+  (lib (name C64-User-Port)(type Legacy)(uri $KIPRJMOD/../common/library/C64-User-Port.lib)(options "")(descr ""))
+  (lib (name mounting)(type Legacy)(uri $KIPRJMOD/../common/library/mounting.lib)(options "")(descr ""))
+)

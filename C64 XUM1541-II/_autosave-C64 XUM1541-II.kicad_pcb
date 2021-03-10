@@ -286,7 +286,7 @@
   )
 
   (module C64_IEC:C64_IEC (layer F.Cu) (tedit 5B1FB4B6) (tstamp 5EDE7584)
-    (at 116.586 46.736 180)
+    (at 115.316 45.72 180)
     (path /5EDD9D01)
     (fp_text reference J1 (at 8.89 8.89 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))

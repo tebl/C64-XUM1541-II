@@ -3,4 +3,5 @@
   (lib (name arduino_pro_micro)(type Legacy)(uri $KIPRJMOD/../common/library/arduino_pro_micro.lib)(options "")(descr ""))
   (lib (name 7406)(type Legacy)(uri $KIPRJMOD/../common/library/7406.lib)(options "")(descr ""))
   (lib (name speed_dos)(type Legacy)(uri $KIPRJMOD/../common/library/speed_dos.lib)(options "")(descr ""))
+  (lib (name mounting)(type Legacy)(uri $KIPRJMOD/../common/library/mounting.lib)(options "")(descr ""))
 )
