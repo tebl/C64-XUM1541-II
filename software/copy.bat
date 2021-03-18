@@ -1,4 +1,6 @@
 @echo off
+setlocal
+SET PATH=%PATH%;"c:\Program Files\opencbm"
 if not exist "disks" mkdir "disks"
 if "%~1"=="" (
     echo "Error: Please specify disk number!"
@@ -11,3 +13,4 @@ if "%~1"=="" (
     d64copy.exe -n 8 "disks\D%1B.d64" > "disks\D%1B.log" 2>&1
     echo done!
 )
+pause
