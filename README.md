@@ -1,13 +1,18 @@
 # C64 XUM1541
 
-The thing about old 5 1/4 inch floppies is that no matter the way they are stored, they are inherently in a constant decay until they're all disolved into nostalgia and tears. Because of that I wanted to archive my private collection of less than original floppy disks (I didn't know any better and I had a hard time being able to even afford empty disks). Anyway, I came across an interesting [blog-post](https://myoldcomputer.nl/commodore-64/xum1541-promicro/) where a dedicated superfan used an Arduino Pro Micro to connect the drive directly to a modern computer, allowing a disk to be copied to a D64-file within a minute!
+D:\ownCloud\Documents\Projects\C64 XUM1541-II\software>avrdude -p m32u4 -c avr109 -Pcom19 -U flash:w:xum1541-PROMICRO_7406-v08.hex
+
+https://ist.uwaterloo.ca/~schepers/MJK/parallel_cable.html
+https://e4aws.silverdr.com/projects/dolphindos2/
+
+The thing about old 5 1/4 inch floppies is that no matter the way they are stored, they are inherently in a constant decay until they're all dissolved into a given amount of nostalgia and crocodile tears. Because of that I wanted to archive my private collection of less than original floppy disks (I didn't know any better and I had a hard time being able to even afford empty disks). Anyway, I came across an interesting [blog-post](https://myoldcomputer.nl/commodore-64/xum1541-promicro/) where a dedicated superfan used an Arduino Pro Micro to connect the drive directly to a modern computer, allowing a disk to be copied to a D64-file within a single minute! A minute might sound like a lot in this day and age, but that's just about blazing fast when it comes to 1541 disk drives.
 
 ![XUM1541](https://github.com/tebl/C64-XUM1541/raw/master/gallery/2020-06-20%2023.25.41.jpg)
 
-There are more professional solutions out there with a lot more features, but I wanted the simplest version of it all without actually soldering wires myself - so I threw together a simple PCB with the footprints matching parts I already had laying around in my parts-bin from building my Pi1541 module.
+There are certainly more professional solutions out there with a lot more features, I just wanted the simplest version of it all without manually soldering wires in every direction. So I threw together a simple PCB using the kind of parts I already had around the house, because who doesn't have cheap chinese parts flowing out of their drawers at this point? Anyway, that became the C64 XUM1541. A year later I wanted to figure out how that parallel connection was supposed to work and I've already harvested my original unit for parts, so I needed to order new PCBs and solder another one together. Instead of just doing the same thing, I started a new version of it with a few more features at the same time (I hate building more than one of a thing).
 
 ## Building the module
-The module only consists of a handful of components, so just enure that get the components matching the BOM listed at the bottom of this page and solder it all together (component counts in parenthesis are not needed for a minimal build). The PCB may seem somewhat oversized for what it is, the reason for this is that I wanted it to fit into one of the 70x45x30mm electronic project boxes - when doing so you'd also install the power LED listed as an optional component, but bent out toward the side so that you can see it inside the box.
+The module only consists of a handful of components, so just enure that get the components matching the BOM listed at the bottom of this page and solder it all together (component counts in parenthesis are not needed for a minimal build).
 
 ![Module PCB](https://github.com/tebl/C64-XUM1541/raw/master/gallery/2020-06-20%2020.06.48.jpg)
 
@@ -21,7 +26,7 @@ There is also an extensive document available that describes the various command
 d64copy.exe 8 disk.d64
 ```
 
-**WARNING!** A quick note on the hardware itself is that there is a recommended way of unplugging and plugging in cables, mainly to never do so with the power supplied to it. Commodore 64s and their associated hardware is slowly going extinct like the disks we're trying to archive, so please handle them with the care they deserve!
+**WARNING!** A quick note on the hardware itself is that there is a recommended way of unplugging and plugging in cables - mainly, you should never do so while any of it is powered on. Commodore 64s and their associated hardware is slowly going extinct like the disks we're trying to archive, so please handle them with the care they deserve!
 
 # Schematic
 The supplied KiCad files should be sufficient as both a schematic and as a  starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](https://github.com/tebl/C64-XUM1541/raw/master/documentation/schematic/C64%20XUM1541.pdf) and this is what you'll need to print and work your way through this things don't work as expected after assembly.
