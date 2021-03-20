@@ -699,45 +699,45 @@ Wire Bus Line
 $Comp
 L mounting:Mounting M1
 U 1 1 6049C1C8
-P 10675 550
-F 0 "M1" H 10675 650 50  0001 C CNN
-F 1 "Mounting" H 10675 475 50  0001 C CNN
-F 2 "mounting:M3_pin" H 10675 550 50  0001 C CNN
-F 3 "~" H 10675 550 50  0001 C CNN
-	1    10675 550 
+P 10725 550
+F 0 "M1" H 10725 650 50  0001 C CNN
+F 1 "Mounting" H 10725 475 50  0001 C CNN
+F 2 "mounting:M3_pin" H 10725 550 50  0001 C CNN
+F 3 "~" H 10725 550 50  0001 C CNN
+	1    10725 550 
 	1    0    0    -1  
 $EndComp
 $Comp
 L mounting:Mounting M2
 U 1 1 6049C9D2
-P 10800 550
-F 0 "M2" H 10800 650 50  0001 C CNN
-F 1 "Mounting" H 10800 475 50  0001 C CNN
-F 2 "mounting:M3_pin" H 10800 550 50  0001 C CNN
-F 3 "~" H 10800 550 50  0001 C CNN
-	1    10800 550 
+P 10850 550
+F 0 "M2" H 10850 650 50  0001 C CNN
+F 1 "Mounting" H 10850 475 50  0001 C CNN
+F 2 "mounting:M3_pin" H 10850 550 50  0001 C CNN
+F 3 "~" H 10850 550 50  0001 C CNN
+	1    10850 550 
 	1    0    0    -1  
 $EndComp
 $Comp
 L mounting:Mounting M3
 U 1 1 6049F898
-P 10925 550
-F 0 "M3" H 10925 650 50  0001 C CNN
-F 1 "Mounting" H 10925 475 50  0001 C CNN
-F 2 "mounting:M3_pin" H 10925 550 50  0001 C CNN
-F 3 "~" H 10925 550 50  0001 C CNN
-	1    10925 550 
+P 10975 550
+F 0 "M3" H 10975 650 50  0001 C CNN
+F 1 "Mounting" H 10975 475 50  0001 C CNN
+F 2 "mounting:M3_pin" H 10975 550 50  0001 C CNN
+F 3 "~" H 10975 550 50  0001 C CNN
+	1    10975 550 
 	1    0    0    -1  
 $EndComp
 $Comp
 L mounting:Mounting M4
 U 1 1 604A26DE
-P 11050 550
-F 0 "M4" H 11050 650 50  0001 C CNN
-F 1 "Mounting" H 11050 475 50  0001 C CNN
-F 2 "mounting:M3_pin" H 11050 550 50  0001 C CNN
-F 3 "~" H 11050 550 50  0001 C CNN
-	1    11050 550 
+P 11100 550
+F 0 "M4" H 11100 650 50  0001 C CNN
+F 1 "Mounting" H 11100 475 50  0001 C CNN
+F 2 "mounting:M3_pin" H 11100 550 50  0001 C CNN
+F 3 "~" H 11100 550 50  0001 C CNN
+	1    11100 550 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
