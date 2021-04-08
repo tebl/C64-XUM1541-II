@@ -10,8 +10,8 @@ Rev "A"
 Comp ""
 Comment1 ""
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "work with later OpenCBM firmware."
+Comment4 "Updated version of my previous C64 XUM1541-II, this adds the 7406 inverter and should "
 $EndDescr
 NoConn ~ 3250 2125
 Wire Wire Line
@@ -171,7 +171,7 @@ L speed_dos:Speed_DOS_IDC J2
 U 1 1 5EF167B3
 P 2850 5075
 F 0 "J2" H 2850 5500 50  0000 C CNN
-F 1 "Parallel" H 2850 5400 50  0000 C CNN
+F 1 "PARALLEL" H 2850 5400 50  0000 C CNN
 F 2 "speed_dos:SpeedDOS_IDC" H 2850 5075 50  0001 C CNN
 F 3 "~" H 2850 5075 50  0001 C CNN
 	1    2850 5075

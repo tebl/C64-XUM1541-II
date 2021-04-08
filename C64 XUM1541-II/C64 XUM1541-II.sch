@@ -10,8 +10,8 @@ Rev "A"
 Comp ""
 Comment1 ""
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "work with later OpenCBM firmware. Parallel connector changed to match SpeedDOS adapter."
+Comment4 "Updated version of my previous C64 XUM1541-II, this adds the 7406 inverter and should "
 $EndDescr
 NoConn ~ 3250 2125
 Wire Wire Line
