@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name 6522)(type Legacy)(uri "D:/ownCloud/Documents/Projects/C64 XUM1541-II/common/library/6522.lib")(options "")(descr ""))
+  (lib (name arduino_pro_micro)(type Legacy)(uri "D:/ownCloud/Documents/Projects/C64 XUM1541-II/C64 1541-II VIA Adapter/../common/library/arduino_pro_micro.lib")(options "")(descr ""))
+  (lib (name speed_dos)(type Legacy)(uri "D:/ownCloud/Documents/Projects/C64 XUM1541-II/C64 1541-II VIA Adapter/../common/library/speed_dos.lib")(options "")(descr ""))
+  (lib (name 7406)(type Legacy)(uri "D:/ownCloud/Documents/Projects/C64 XUM1541-II/C64 1541-II VIA Adapter/../common/library/7406.lib")(options "")(descr ""))
+  (lib (name C64_IEC)(type Legacy)(uri "D:/ownCloud/Documents/Projects/C64 XUM1541-II/C64 1541-II VIA Adapter/../common/library/C64_IEC.lib")(options "")(descr ""))
+  (lib (name 27c128)(type Legacy)(uri "D:/ownCloud/Documents/Projects/C64 XUM1541-II/common/library/27c128.lib")(options "")(descr ""))
+)

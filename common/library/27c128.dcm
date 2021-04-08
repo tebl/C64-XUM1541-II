@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 27128
+D UV Erasable EPROM 128 KiBit, [Obsolete 2000-11]
+K Erasable OTP EPROM 128KiBit
+F http://eeshop.unl.edu/pdf/27128.pdf
+$ENDCMP
+#
+$CMP 27C128
+D OTP EPROM 128 KiBit, [Obsolete 2004-01]
+K OTP EPROM 128KiBit
+F http://ww1.microchip.com/downloads/en/devicedoc/11003L.pdf
+$ENDCMP
+#
+$CMP 27c128_Adapter
+D 6522 Socket adapter
+$ENDCMP
+#
+#End Doc Library
