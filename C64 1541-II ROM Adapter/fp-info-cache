@@ -1,4 +1,4 @@
-19037351795890623
+19038969713226712
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83054,6 +83054,13 @@ Straight DE-9 connector, the blue kind with metal shield removed (solder to pads
 0
 4
 4
+edge_connect
+short_edge_pins_1x01
+Straight DE-9 connector, the blue kind with metal shield removed (solder to pads).
+9-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 25mm
+0
+1
+1
 socket_adapter
 DIP-28_W15.24mm
 28-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils)
