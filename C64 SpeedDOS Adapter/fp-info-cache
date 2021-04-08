@@ -1,4 +1,18 @@
-19037291853861106
+19070977067106754
+1n4148
+D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp
+Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=2.54mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Vertical pin pitch 2.54mm  length 4mm diameter 2mm
+0
+2
+2
+1n4148
+D_DO-35_SOD27_P7.62mm_Horizontal
+Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
+0
+2
+2
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2274,13 +2288,6 @@ speaker CUI
 0
 2
 2
-C64_User_Port
-C64_User-Port
-
-
-0
-24
-24
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -74395,6 +74402,41 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RND_DSUB
+DSUB-9_Female_Edge
+Straight DE-9 connector, the blue kind with metal shield removed (solder to pads).
+9-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 25mm
+0
+9
+9
+RND_DSUB
+DSUB-9_Male_Edge
+Straight DE-9 connector, the blue kind with metal shield removed (solder to pads).
+9-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 25mm
+0
+9
+9
+RND_DSUB
+DSUB-9_Male_Vertical_Pitch2.77x2.84mm
+9-pin D-Sub connector, straight/vertical, THT-mount, male, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+9-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 25mm
+0
+9
+9
+RND_DSUB
+DSUB-15_Male_Horizontal_Pitch2.77x2.54mm_EdgePinOffset9.40mm
+15-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, male, pitch 2.77x2.54mm, pin-PCB-offset 9.4mm, see http://docs-europe.electrocomponents.com/webdocs/1585/0900766b81585df2.pdf
+15-pin D-Sub connector horizontal angled 90deg THT male pitch 2.77x2.54mm pin-PCB-offset 9.4mm
+0
+15
+15
+RND_DSUB
+DSUB-15_Male_Vertical_Pitch2.77x2.84mm
+15-pin D-Sub connector, straight/vertical, THT-mount, male, pitch 2.77x2.84mm, distance of mounting holes 33.3mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+15-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 33.3mm
+0
+15
+15
 Relay_SMD
 Relay_DPDT_AXICOM_IMSeries_JLeg
 http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf
@@ -83033,6 +83075,90 @@ varistor SIOV
 0
 2
 2
+artwork
+cartridge_title
+
+
+0
+0
+0
+artwork
+cartridge_title_diagnostic
+
+
+0
+0
+0
+artwork
+cartridge_title_empty
+
+
+0
+0
+0
+artwork
+cartridge_title_empty2
+
+
+0
+0
+0
+artwork
+heart
+
+
+0
+0
+0
+artwork
+heart_rate
+
+
+0
+0
+0
+artwork
+interface_2021
+
+
+0
+0
+0
+artwork
+interface_2021_large
+
+
+0
+0
+0
+artwork
+sinclair_keyboard
+
+
+0
+0
+0
+artwork
+sinclair_keyboard_large
+
+
+0
+0
+0
+artwork
+sinclair_title
+
+
+0
+0
+0
+artwork
+sinclair_title_large
+
+
+0
+0
+0
 mounting
 M2
 module 1 pin (ou trou mecanique de percage)
@@ -83054,24 +83180,45 @@ DEV
 0
 1
 1
-socket_adapter
-DIP-28_W15.24mm
-28-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils)
-THT DIP DIL PDIP 2.54mm 15.24mm 600mil
+switch_cutout
+SW_PUSH_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
 0
-28
-28
-socket_adapter
-DIP-40_W15.24mm_Socket
-40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket
-THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket
+4
+2
+zx_spectrum
+ZX_Spectrum_Cartridge
+
+
 0
 40
 40
-speed_dos
-SpeedDOS_IDC
-Through hole IDC box header, 2x10, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
-Through hole vertical IDC box header THT 2x10 2.54mm double row
+zx_spectrum
+ZX_Spectrum_Cartridge_Port
+Through hole straight pin header, 2x28, 2.54mm pitch, double rows
+Through hole pin header THT 2x28 2.54mm double row
 0
-20
-11
+44
+44
+zx_spectrum
+ZX_Spectrum_Expansion
+Through hole straight pin header, 2x28, 2.54mm pitch, double rows
+Through hole pin header THT 2x28 2.54mm double row
+0
+56
+56
+zx_spectrum
+ZX_Spectrum_Expansion_Edge
+
+
+0
+54
+54
+zx_spectrum
+ZX_Spectrum_Expansion_Right_Angle
+Through hole straight pin header, 2x28, 2.54mm pitch, double rows
+Through hole pin header THT 2x28 2.54mm double row
+0
+56
+56
