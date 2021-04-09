@@ -32,7 +32,7 @@ If all things go as expected you should get something like the following, just i
 ![avrdude001](https://github.com/tebl/C64-XUM1541-II/raw/main/gallery/documentation/avrdude001.png)
 ![avrdude002](https://github.com/tebl/C64-XUM1541-II/raw/main/gallery/documentation/avrdude002.png)
 
-At this point the Arduino Pro Micro has seized being an Arduino Pro Micro, it is now a XUM1541 - Windoews. Disconnect the USB-cable and then reconnect it, you should now get a new notification from Windows about an xum1541 having been plugged in instead. Without installing USB-drivers it won't work, so let's do that next.
+At this point the Arduino Pro Micro has seized being an Arduino Pro Micro, it is now a XUM1541. Disconnect the USB-cable and then reconnect it, you should now get a new notification from Windows about an xum1541 having been plugged in instead. Without installing USB-drivers it won't work, so let's do that next.
 
 ## 1.2> Install USB-driver
 The next step is installing a USB-driver suitable for use with the XUM1541, the easiest way of doing this is by using a driver installer called [Zadig](https://zadig.akeo.ie/). List all devices from the *options* dropdown-menu, then locate the XUM1541 device in the device listing. In the target section of the driver selection, click up/down until it says **libusb-win32**. Now you can finally click install/reinstall driver in a form that should hopefully work (refer to picture below if needed).
