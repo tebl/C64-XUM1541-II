@@ -41,6 +41,10 @@ The next step is installing a USB-driver suitable for use with the XUM1541, the 
 
 **NB!** Later in this document, we'll get to the installation of OpenCBM. As part of the installation, it'll ask you for permission to install a USB-driver for you - this won't work and it'll just override the driver we just installed. If you did this, then from Zadig - you'll need to enable *List all Devices* from *Options* and then select the xum1541 device from the dropdown list and then click *replace driver*. Do **NOT** randomly mess around with any of the other devices listed, the results probably won't be easy to fix.
 
+Remember earlier when we checked out *Device Manager*? Before continuing I recommend ensuring that the XUM1541 is now listed as expected, it should now show up in a different section than where we found the Arduino Pro Micro (back when it was an Arduino). For reference, see the picture below.
+
+![Device Manager](https://github.com/tebl/C64-XUM1541-II/raw/main/gallery/documentation/device_manager2.png)
+
 ## 1.3> Install OpenCBM
 The actual OpenCBM tools can be downloaded from the creators homepage at [spiro.trikaliotis.net/opencbm](https://spiro.trikaliotis.net/opencbm#download), it's a zip-file and you'll need to extract it to a folder somewhere. Open a CMD-shell in administrator mode, find the directory where you left the extracted file and finally "install" the package by using the following command:
 ```
