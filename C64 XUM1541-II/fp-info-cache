@@ -1,4 +1,4 @@
-19037291853861106
+19071218996378942
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2274,13 +2274,6 @@ speaker CUI
 0
 2
 2
-C64_User_Port
-C64_User-Port
-
-
-0
-24
-24
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -83033,6 +83026,97 @@ varistor SIOV
 0
 2
 2
+artwork
+cartridge_label
+
+
+0
+0
+0
+artwork
+cartridge_title
+
+
+0
+0
+0
+artwork
+cartridge_title_diagnostic
+
+
+0
+0
+0
+artwork
+cartridge_title_empty
+
+
+0
+0
+0
+artwork
+cartridge_title_empty2
+
+
+0
+0
+0
+artwork
+heart
+
+
+0
+0
+0
+artwork
+heart_rate
+
+
+0
+0
+0
+artwork
+interface_2021
+
+
+0
+0
+0
+artwork
+interface_2021_large
+
+
+0
+0
+0
+artwork
+sinclair_keyboard
+
+
+0
+0
+0
+artwork
+sinclair_keyboard_large
+
+
+0
+0
+0
+artwork
+sinclair_title
+
+
+0
+0
+0
+artwork
+sinclair_title_large
+
+
+0
+0
+0
 mounting
 M2
 module 1 pin (ou trou mecanique de percage)
@@ -83054,24 +83138,87 @@ DEV
 0
 1
 1
-socket_adapter
-DIP-28_W15.24mm
-28-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils)
-THT DIP DIL PDIP 2.54mm 15.24mm 600mil
+solder_bridge
+bridge
+Through hole straight pin header, 1x02, 1.00mm pitch, single row
+Through hole pin header THT 1x02 1.00mm single row
 0
-28
-28
-socket_adapter
-DIP-40_W15.24mm_Socket
-40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket
-THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket
+2
+2
+solder_bridge
+bridge2
+Through hole straight pin header, 1x02, 1.00mm pitch, single row
+Through hole pin header THT 1x02 1.00mm single row
+0
+2
+2
+solder_bridge
+bridge_open
+Through hole straight pin header, 1x02, 1.00mm pitch, single row
+Through hole pin header THT 1x02 1.00mm single row
+0
+2
+2
+solder_bridge
+bridge_r
+Through hole straight pin header, 1x02, 1.00mm pitch, single row
+Through hole pin header THT 1x02 1.00mm single row
+0
+2
+2
+solder_bridge
+select
+Through hole straight pin header, 1x02, 1.00mm pitch, single row
+Through hole pin header THT 1x02 1.00mm single row
+0
+3
+3
+solder_bridge
+select2
+Through hole straight pin header, 1x02, 1.00mm pitch, single row
+Through hole pin header THT 1x02 1.00mm single row
+0
+3
+3
+zx_spectrum
+ZX_Spectrum_Cartridge
+
+
 0
 40
 40
-speed_dos
-SpeedDOS_IDC
-Through hole IDC box header, 2x10, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
-Through hole vertical IDC box header THT 2x10 2.54mm double row
+zx_spectrum
+ZX_Spectrum_Cartridge_Original
+
+
 0
-20
-11
+28
+28
+zx_spectrum
+ZX_Spectrum_Cartridge_Port
+Through hole straight pin header, 2x28, 2.54mm pitch, double rows
+Through hole pin header THT 2x28 2.54mm double row
+0
+44
+44
+zx_spectrum
+ZX_Spectrum_Expansion
+Through hole straight pin header, 2x28, 2.54mm pitch, double rows
+Through hole pin header THT 2x28 2.54mm double row
+0
+56
+56
+zx_spectrum
+ZX_Spectrum_Expansion_Edge
+
+
+0
+54
+54
+zx_spectrum
+ZX_Spectrum_Expansion_Right_Angle
+Through hole straight pin header, 2x28, 2.54mm pitch, double rows
+Through hole pin header THT 2x28 2.54mm double row
+0
+56
+56

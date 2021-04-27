@@ -225,7 +225,7 @@ Wire Notes Line
 Wire Notes Line
 	3725 6175 1575 6175
 Wire Notes Line
-	10200 1600 10200 2825
+	10975 1600 10975 2825
 Text Notes 8825 1575 0    60   ~ 0
 LED indicators (optional)
 Text Notes 1775 4525 0    60   ~ 0
@@ -682,10 +682,6 @@ Wire Notes Line
 	8800 3175 10200 3175
 Wire Notes Line
 	8800 2825 8800 1600
-Wire Notes Line
-	8800 1600 10200 1600
-Wire Notes Line
-	8800 2825 10200 2825
 Text Notes 8825 3150 0    60   ~ 0
 Arduino reset (optional)
 Wire Bus Line
@@ -799,6 +795,12 @@ Wire Wire Line
 	5800 1200 5800 1650
 Wire Wire Line
 	5800 1650 5875 1650
+Text Notes 9975 2575 0    39   ~ 0
+The resistor values here are\nmore of a suggestion, just\nto keep them from burning\nout.\n\nBright LEDs might not be\ncomfortable to look at with\nthis value, for those I'd\nconsider something up to 3k3.\nEither calculate from datasheet\nor test on a breadboard before\nsoldering.
+Wire Notes Line
+	8800 2825 10975 2825
+Wire Notes Line
+	8800 1600 10975 1600
 Wire Bus Line
 	4750 1000 4750 2050
 Wire Bus Line
