@@ -21,10 +21,10 @@ Before we can flash the Arduino Pro Micro, we'll need to know which COM-port Win
 
 ![device_manager](https://github.com/tebl/C64-XUM1541-II/raw/main/gallery/documentation/device_manager.png)
 
-On my computer the port showed up as com10, you need to pay attention and make a note of what this number is on your computer. After the already mentioned 8-second timeout it'll change again, but never mind that - as we now know what to use with *avrdude*. Type in the command as below, substituting your actual com-port, but do **NOT** press ENTER at this point. Reset the Arduino Pro Micro again by pushing *reset* **twice** and then quickly press ENTER to run the command (you'll have 8 seconds). 
+On my computer the port showed up as com4, you need to pay attention and make a note of what this number is on your computer. After the already mentioned 8-second timeout it'll change again, but never mind that - as it is this first one we need to use with *avrdude*. Type in the command as below, substituting your actual com-port, but do **NOT** press ENTER at this point. Reset the Arduino Pro Micro again by pushing *reset* **twice** and then quickly press ENTER to run the command (you'll have 8 seconds). 
 
 ```
-avrdude -p m32u4 -c avr109 -P com10 -U flash:w:xum1541-PROMICRO_7406-v08.hex
+avrdude -p m32u4 -c avr109 -P com4 -U flash:w:xum1541-PROMICRO_7406-v08.hex
 ```
 
 If all things go as expected you should get something like the following, just ignore the specifics and ensure that it at the moment verifies that the firmware was written correctly. If it times out or bombs out with an error message, you were probably too late when resetting the Arduino Pro Micro so just try it again until you finally succeed.
