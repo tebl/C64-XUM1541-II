@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name socket_adapter)(type KiCad)(uri $KIPRJMOD/../common/modules/socket_adapter.pretty)(options "")(descr ""))
   (lib (name speed_dos)(type KiCad)(uri $KIPRJMOD/../common/modules/speed_dos.pretty)(options "")(descr ""))
+  (lib (name solder_bridge)(type KiCad)(uri $KIPRJMOD/../common/modules/solder_bridge.pretty)(options "")(descr ""))
 )
