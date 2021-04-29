@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(5.1.8)-1*%
-%TF.CreationDate,2021-04-08T16:26:30+02:00*%
+%TF.CreationDate,2021-04-29T21:30:49+02:00*%
 %TF.ProjectId,C64 SpeedDOS Adapter,43363420-5370-4656-9564-444f53204164,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.8)-1) date 2021-04-08 16:26:30*
+G04 Created by KiCad (PCBNEW (5.1.8)-1) date 2021-04-29 21:30:49*
 %MOMM*%
 %LPD*%
 G01*
@@ -63,7 +63,7 @@ X173355000Y-105410000D03*
 %TD*%
 D11*
 %TO.P,J2,11*%
-%TO.N,GND*%
+%TO.N,Net-(J2-Pad11)*%
 X140208000Y-90170000D03*
 X142748000Y-90170000D03*
 X145288000Y-90170000D03*
@@ -89,7 +89,7 @@ X147828000Y-92710000D03*
 %TO.N,/VIA_PA0*%
 X142748000Y-92710000D03*
 %TO.P,J2,11*%
-%TO.N,GND*%
+%TO.N,Net-(J2-Pad11)*%
 X163068000Y-90170000D03*
 %TO.P,J2,9*%
 %TO.N,/VIA_PA7*%
