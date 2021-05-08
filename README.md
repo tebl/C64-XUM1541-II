@@ -1,2 +1,23 @@
 # C64 XUM1541-II
+About a year ago I had a look at my collection of Commodore 64 floppies and decided that it was time, enough time had passed that even I needed to look into backing them up - hoping simply doesn't cut it in the end. I had a look at the available options, then instead of choosing to just buy something like the ZoomFloppy I wanted to build it myself using the resources available [online](https://myoldcomputer.nl/commodore-64/xum1541-promicro/). Doing the work of transferring the designs to PCB using KiCAD resulted in the [C64 XUM1541](https://github.com/tebl/C64-XUM1541). Now that it's a year later, I wanted to make a new revision with the a few more features and so I give you the  *C64 XUM1541-II*.
 
+![C64 XUM1541-II](https://github.com/tebl/C64-XUM1541-II/raw/main/gallery/2021-03-19%2000.18.31.jpg)
+
+Originally it annoyed me that the C64 XUM1541 was limited to running version 0.7 of the [OpenCBM](https://github.com/OpenCBM/OpenCBM/tree/master/xum1541) firmware, so I started to look into the documentation that comes with the firmware. I don't know where the designs parted ways, but I focused on simply making it work - along the way adding the components required for the 7406 version of the reference design. Given that the original release works and probably will continue working just fine, I've kept the projects separate so that users can instead opt to build that one (it uses fewer components and is slightly smaller).
+
+![Internal upgrades](https://github.com/tebl/C64-XUM1541-II/raw/main/gallery/2021-04-29%2002.02.14.jpg)
+
+With another year added around my belly, I've finally worked up the courage to look into installing upgrades inside one of my Commodore 1541-II disk drives. This resulted in the addition of several additional modules that have been designed to work along with each other (where applicable).
+
+# 1> Modules
+The following modules are available as part of this project. The additional modules are strictly not necessary as you can simply use the *C64 XUM1541-II* by itself with a drive, the parallel interface will cut the time needed to backup a single disk in half. The remaining modules mainly just affect your experience when using the drive with your physical Commodore 64, but note that most of them have been designed for use with a Commodore 1541-II disk drive.  The SpeedDOS user port adapter has been included for completeness, but note that installing a [JiffyDOS](http://store.go4retro.com/categories/Commodore/Firmware/JiffyDOS/) ROM in both your [disk drive](http://store.go4retro.com/jiffydos-1541-dos-rom-overlay-image/) as well as  the [computer](http://store.go4retro.com/jiffydos-64-kernal-rom-overlay-image/) itself will more than likely outperform it.
+
+The following table lists all of the modules, click the name to get a more detailed description as well as other information for that specific module. The second and third column has been added to show which module can be used with each other, the 'XUM1541' giving a recommendation when performing backups on a modern computer. The  third column provides a recommendation when you want to use the modified drive with your physical Commodore 64.
+
+| Module                  | C64 XUM1541-II | Physical C64 | Order  | Description |
+| ----------------------- | -------------- | ------------ | ------ | ----------- |
+| [C64 XUM1541-II](https://github.com/tebl/C64-XUM1541-II/tree/main/C64%20XUM1541-II) | required       | N/A     | PCBWay | C64 XUM1541-II module for backing disks up to modern computer.
+| C64 1541-II VIA Adapter | recommended    | optional     | PCBWay | Adds a parallel interface to your 1541-II disk drive, can be used with both C64 XUM1541-II and physical computer with suitable ROM upgrade.
+| [C64 1541-II ROM Adapter](https://github.com/tebl/C64-XUM1541-II/tree/main/C64%201541-II%20ROM%20Adapter) | optional       | recommended  | PCBWay | Adds a switch to select between ROM images suitable for 1541-II disk drive
+| C64 SpeedDOS Adapter    | N/A            | optional     | PCBWay | User port adapter for connecting a 1541-II disk drive with a parallel cable up to your Commodore 64, requires matching firmware on the drive as well as the computer.
+| [C64 Kernal Switcher](https://github.com/tebl/C64-Kernal-Switcher) | N/A          | recommended  | [PCBWay](https://www.pcbway.com/project/shareproject/Commodore_64_Quad_Kernal_Switcher.html?inviteid=88707) | Using a custom kernal with optimizations for either serial or parallel interfaces is recommended. This board has been designed for "Longboards".
