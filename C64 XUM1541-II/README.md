@@ -68,8 +68,8 @@ Most parts should be easy to get a hold of from your favourite local electronic 
 
 | Reference             | Item                                                              | Count | Order  |
 | --------------------- | ----------------------------------------------------------------- | ----- | ------ |
-| Cartridge PCB         | Fabricate using Gerber files                                      |     1 | PCBWay
-| Faceplate PCB         | Fabricate using Gerber files                                      |    (1)| PCBWay
+| Cartridge PCB         | Fabricate using Gerber files                                      |     1 | [PCBWay](https://www.pcbway.com/project/shareproject/C64_XUM1541_II.html)
+| Faceplate PCB         | Fabricate using Gerber files                                      |    (1)| [PCBWay FA1](https://www.pcbway.com/project/shareproject/C64_XUM1541_II__Faceplate_FA1_.html)
 | A1 *                  | Arduino Pro Micro                                                 |     1 |
 | C1                    | 100nF ceramic capacitor (5mm pin spacing)                         |     1 |
 | D1,D2                 | 5mm LED                                                           |    (2)|
