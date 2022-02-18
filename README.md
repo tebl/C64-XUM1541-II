@@ -1,10 +1,10 @@
 # C64 XUM1541-II
 About a year ago I had a look at my collection of Commodore 64 floppies and decided that it was time, enough time had passed that even I needed to look into backing them up - hoping simply doesn't cut it in the end. I had a look at the available options, then instead of just choosing to buy something like the ZoomFloppy I wanted to build it myself. With the resources available to me [online](https://myoldcomputer.nl/commodore-64/xum1541-promicro/), all of the heavy lifting was already done. The work of transferring the designs to PCB using KiCAD resulted in the previous version, creatively called [C64 XUM1541](https://github.com/tebl/C64-XUM1541). Now that a year has gone by, mostly isolated like most of the world I wanted to make a new revision with few tweaks and so I made the  *C64 XUM1541-II*.
 
-![C64 XUM1541-II with faceplate](https://github.com/tebl/C64-XUM1541-II/raw/main/gallery/2021-05-19%2022.53.17.jpg)
+![C64 XUM1541-II with faceplate](https://github.com/tebl/C64-XUM1541-II/raw/main/gallery/2022-02-19%2000.23.50.jpg)
 ![C64 XUM1541-II](https://github.com/tebl/C64-XUM1541-II/raw/main/gallery/2021-03-19%2000.18.31.jpg)
 
-What had somewhat annoyed me that the [C64 XUM1541](https://github.com/tebl/C64-XUM1541) was its apparant limition when it came to running anything past version 0.7 of the [OpenCBM](https://github.com/OpenCBM/OpenCBM/tree/master/xum1541) firmware, so I finally got around to actually reading the documentation that came with it. I don't know the exact point in time the designs parted ways, but thinking practically I instead just focused on making a version of it work - mostly by adding the components required for the 7406-version of the reference design.
+What had somewhat annoyed me that the [C64 XUM1541](https://github.com/tebl/C64-XUM1541) was its apparant limition when it came to running anything past version 0.7 of the [OpenCBM](https://github.com/OpenCBM/OpenCBM/tree/master/xum1541) firmware, so I finally got around to actually reading the documentation that came with it. I don't know the exact point in time the designs parted ways, but thinking practically - I instead just focused on making a version of it that would work. Mostly by adding the components required for the 7406-version of the reference design included with *OpenCBM*.
 
 ![Internal upgrades](https://github.com/tebl/C64-XUM1541-II/raw/main/gallery/2021-04-29%2002.02.14.jpg)
 
@@ -22,4 +22,11 @@ The following table lists all of the modules, click the name to get a more detai
 | C64 1541-II VIA Adapter | recommended    | optional     | PCBWay | Adds a parallel interface to your Commodore 1541-II disk drive, can be used with both [C64 XUM1541-II](https://github.com/tebl/C64-XUM1541-II/tree/main/C64%20XUM1541-II) as well as physical computer with a suitable ROM upgrade.
 | [C64 1541-II ROM Adapter](https://github.com/tebl/C64-XUM1541-II/tree/main/C64%201541-II%20ROM%20Adapter) | optional       | recommended  | PCBWay | Adds a switch to select between ROM images suitable for Commodore 1541-II disk drive with only a single 16KB ROM chip.
 | C64 SpeedDOS Adapter    | N/A            | optional     | PCBWay | User port adapter for connecting a 1541-II disk drive with a parallel cable up to your Commodore 64, requires matching firmware on the drive as well as the computer.
-| [C64 Kernal Switcher](https://github.com/tebl/C64-Kernal-Switcher) | N/A          | recommended  | [PCBWay](https://www.pcbway.com/project/shareproject/Commodore_64_Quad_Kernal_Switcher.html?inviteid=88707) | Using a custom kernal with optimizations for either serial or parallel interfaces is recommended. This board was designed for use with "Longboards".
+| [C64 Kernal Switcher](https://github.com/tebl/C64-Kernal-Switcher) | N/A          | recommended  | [PCBWay](https://www.pcbway.com/project/shareproject/Commodore_64_Quad_Kernal_Switcher.html?inviteid=88707) | Using a custom kernal with optimizations for either serial or parallel interfaces is recommended. This board was designed for use with C64 "Longboards".
+
+# 2> Documentation
+Building an XUM1541 from scratch and getting the software ready to transfer your own physical disks, is a rather involving process. It is an afternoons worth of a project, but by following the documentation it shouldn't be a difficult task for anyone equipped with a brain for slight engineering. As the project really is just a collection of various modules that you may or may not need, I've separated the information so that the relevant documentation is included as a separate README for each of the [modules](#1-modules) - click the module name for BOM, build instructions and so forth.
+
+When you're ready to start installing software, by first installing the firmware onto the *Arduino Pro Micro* and then installing OpenCBM, there's a separate document covering these details:
+- [Firmware installation](https://github.com/tebl/C64-XUM1541-II/blob/main/documentation/firmware.md)
+
